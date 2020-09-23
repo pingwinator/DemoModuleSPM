@@ -23,11 +23,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "App",
-            path: "App.xcframework"
+            url: "https://flutter-beta.web.app/1.0.2/App.xcframework.zip",
+            checksum: "f1009567de6928f6f1e1c476bd71412195898a91b721cd19e13348c5bbc5e832"
         ),
          .binaryTarget(
             name: "Flutter",
-            path: "Flutter.xcframework"
+            url: "https://flutter-beta.web.app/1.0.2/Flutter.xcframework.zip",
+            checksum: "b8e102c348e2e53165e9244cafe7148a823f3a124a3f2cfb31acb9ec914f9260"
         )
     ]
 )
