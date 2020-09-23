@@ -24,12 +24,12 @@ let package = Package(
         .binaryTarget(
             name: "App",
             url: "https://flutter-beta.web.app/1.0.2/App.xcframework.zip",
-            checksum: "f1009567de6928f6f1e1c476bd71412195898a91b721cd19e13348c5bbc5e832"
+            checksum: "57ecc904e542d0da3e81a912ca6e447d76df049a8a58e0d445c4259ab18e8252"
         ),
          .binaryTarget(
             name: "Flutter",
             url: "https://flutter-beta.web.app/1.0.2/Flutter.xcframework.zip",
-            checksum: "b8e102c348e2e53165e9244cafe7148a823f3a124a3f2cfb31acb9ec914f9260"
+            checksum: "56c6dacb1036ea4aa7205b25479a7d1792b2250bbf5028d9405f90dab7cc7664"
         )
     ]
 )
